@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Cart Quantity </title>
+  </head>
+  <body>  
+    <p> Cart Quantity</p>
+    <button onclick="
+      console.log(`Cart Quantity : ${cartQuantity}`);
+    ">Show quantity</button>
+    <button onclick="
+      cartQuantity ++;
+      console.log(`Cart Quantity : ${cartQuantity}`);
+    ">Add to Cart</button>
+    <button onclick="
+      cartQuantity += 2;
+      console.log(`Cart Quantity : ${cartQuantity}`);
+    ">+2</button>
+    <button onclick="
+      cartQuantity += 3;
+      console.log(`Cart Quantity : ${cartQuantity}`);
+    ">+3</button>
+    <button onclick="
+      cartQuantity = 0;
+      console.log(`Cart was reset \nCart Quantity : ${cartQuantity}`);
+    ">Reset Cart</button>
+
+
+    <script>
+      let cartQuantity = 0;  
+      const  v2 = 4;
+      console.log(v2);
+      //v2 = 5;
+
+      var var3 = 67;
+      // 3 ways to create variable : let , const , var 
+      // var doesn't follow scope of variables
+    </script>
+
+
+  </body>
+</html>

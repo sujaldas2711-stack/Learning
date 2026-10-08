@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Objects</title>
+  </head>
+  <body>
+    <script>
+      /*
+      const product = {
+        name: `Sipun`,
+        price: 1000
+      };
+      console.log(product);
+      product.newProp = 909;
+
+      delete product.name;
+      console.log(product);
+      */
+     const prod2 = {
+      name: 'Hello',
+      ['deli-time'] : '2 days',
+      rating : {
+        name : 'Hi',
+        surname : 'Gay'
+      }
+     };
+      console.log(prod2);
+      console.log(prod2.name);
+      console.log(prod2['name']);  // Bracket Notation
+      console.log(prod2['deli-time']);
+
+      console.log(JSON.stringify(prod2));
+      console.log(JSON.parse(JSON.stringify(prod2)));
+
+
+      localStorage.setItem('Messgae', 'Hello');
+
+
+    </script>>
+  </body>
+</html>
